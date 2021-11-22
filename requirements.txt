@@ -1,1 +1,2 @@
+cloudscraper            ## needed to bypass cloudfront check on personal-capital
 requests==2.20.0
