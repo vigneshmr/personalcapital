@@ -48,7 +48,7 @@ Then you need to finish the two factor challenge by verifying the code and conti
 
 ```python
 pc.two_factor_authenticate(mode, raw_input('code'))
-pc.authenticate_password(password)
+pc.authenticate_password(email, password)
 ```
 
 Once authenticated, you can start fetching data from the Personal Capital API.
